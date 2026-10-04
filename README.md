@@ -56,6 +56,9 @@ Status no `dskit list`:
 | agente | `code-reviewer` | revisão de diffs de DS (bugs, data leakage, reprodutibilidade) |
 | skill  | `pr-review`     | roda `make ci` e chama o `code-reviewer` no diff da branch |
 | skill  | `ds-eda`        | EDA padronizada em `notebooks/` + `reports/figures/`          |
+| skill  | `new-branch`    | cria branch `<tipo>/<descricao>` a partir da main atualizada  |
+| skill  | `add-dependency`| `uv add` no grupo certo (aplicação ou dev)                    |
+| skill  | `run-checks`    | roda `make ci` e resume lint/test/check                       |
 
 Para adicionar novos, crie arquivos em `src/ds_agent_kit/assets/claude/{skills,agents}/`.
 Skill = uma pasta com `SKILL.md`; agente = um arquivo `<nome>.md`. Eles aparecem no `dskit list` automaticamente.
