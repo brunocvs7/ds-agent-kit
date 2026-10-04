@@ -7,7 +7,7 @@ description: Faz análise exploratória (EDA) de um dataset em data/ seguindo as
 
 1. Identifique o arquivo em `data/raw/` ou `data/processed/` (pergunte se houver mais de um).
 2. Garanta as dependências: `uv add --dev pandas matplotlib ipykernel` se ainda não existirem.
-3. Crie `notebooks/NN-<iniciais>-eda-<dataset>.ipynb` (NN = próximo número livre) contendo:
+3. Crie um notebook em `notebooks/` (sugestão: `NN-<iniciais>-eda-<dataset>.ipynb`) contendo:
    - shape, dtypes, `% de nulos` por coluna, cardinalidade;
    - estatísticas descritivas e distribuição das principais variáveis;
    - correlações e possíveis vazamentos em relação ao target (se houver um);
